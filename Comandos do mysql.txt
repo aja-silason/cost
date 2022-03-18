@@ -1,0 +1,4 @@
+
+/*Alterar o tipo de dados numa base de dados*/
+
+ALTER TABLE `mensagem` CHANGE `datasms` `datasms` DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP; 

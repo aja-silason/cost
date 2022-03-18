@@ -1,0 +1,33 @@
+.innerestatisticasuser{
+    box-shadow: 0px 0px 10px 0px #000;
+    margin-top: 40px;
+    padding: 2%;
+    margin-bottom: 90px;
+    border-radius: 5px;
+}
+.exibiruser{
+    background-color: #fff;
+    margin: 5px;
+    
+}
+
+.btneliminaruser{
+    background-color: #63339A;
+    color: #fff;
+    width: 10%;
+    height: 30px;
+    float: right;
+    border: none;
+    margin-top: -30px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.btneliminaruser:hover{
+    background-color: #502581;
+}
+
+.corpoestatisticauser{
+    margin-top: 7%;
+    width: 70%;
+    margin-left: 15%;
+}

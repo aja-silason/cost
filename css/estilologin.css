@@ -1,0 +1,292 @@
+*{
+    font-family: Arial;
+    font-weight: 500;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html, body{
+    display: item;
+    height: 100%;
+    place-items: center;
+    margin-left: 19%;
+    margin-top: 2%;
+    background: #f2f2f2;
+}
+
+.wrapper{
+    max-width: 390px;
+    background: #fff;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+.wrapper .titulo-texto{
+    display: flex;
+    width: 200%;
+}
+.wrapper .titulo-texto .titulo{
+    width: 50%;
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;  
+}
+.wrapper .formcoonteiner{
+    width: 100%;
+    overflow: hidden;
+}
+.formcoonteiner .slide-controlo{
+    position: relative;
+    display: flex;
+    height: 50px;
+    width: 100%;
+    margin: 30px 0 10px 0;
+    justify-content: space-between;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    overflow: hidden;    
+}
+.slide-controlo .slide{
+    height: 100%;
+    width: 100%;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    line-height: 48px;
+    z-index: 1;
+    color: #fff;
+    transition: all 0.6s ease;
+    cursor: pointer;
+}
+.slide-controlo .criar{
+    color: #000;
+}
+.slide-controlo .slide-tab{
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    left: 0;
+    z-index: 0;
+    border-radius: 5px;
+    transition: all 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    background: #63339A;
+}
+input[type="radio"]{
+    display: none;
+}
+#criarconta:checked ~ .slide-tab{
+    left: 50%;
+}
+#criarconta:checked ~ .criar{
+    color: #fff;
+}
+#criarconta:checked ~ .login{
+    color: #000;
+}
+.corpologin{
+    margin-left: 50px;
+}
+.formcoonteiner .interno{
+    display: flex;
+    width: 200%;
+}
+.formcoonteiner .interno form{
+    width: 330px;
+    margin-right: 5px;
+    transition: all 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+.titulo.login, .titulo.criarconta{
+    transition: all 0.9s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+.formcoonteiner form .campoinput{
+    height: 50px;
+    width: 100%;
+    margin-top: 20px;
+}
+.formcoonteiner form .campoinput input, .paiscreate{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    padding-left: 15px;
+    font-size: 17px;
+    border: none;
+    border-radius: 5px;
+    border-bottom: 1px solid lightgray;/*
+    border: 1px solid lightgray;*/
+    border-bottom-width: 2px;
+    transition: all 0.4s ease;
+}
+.formcoonteiner form .campoinput input:focus{
+    border: 1px solid lightgray;
+    border-color: #63339A;
+}
+.paiscreate{
+    text-align: center;
+}
+.paiscreate:focus{
+    background-color: #502581;
+    color: #fff;
+}
+.paiscreate:hover{
+    background-color: #502581;
+    color:#fff;
+}
+.formcoonteiner form .criarconta, .esqueciapass{
+    text-align: center;
+    margin-top: 30px;
+}
+.formcoonteiner form .criarconta a, .esqueciapass a{
+    color: #63339A;
+    text-decoration: none;
+}
+.formcoonteiner form .criarconta a:hover, .esqueciapass a:hover{
+    text-decoration: underline;
+}
+form .campoinput input[type="submit"]{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    padding-left: 0px;
+    border: none;
+    cursor: pointer;
+    background: #63339A;
+}
+form .campoinput input[type="submit"]:hover{
+    background: #502581;
+}
+.erro, .erro2{
+    color: #fff; 
+    background-color: rgb(214, 7, 69); 
+    text-align: center;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.erro3{
+    color: #fff; 
+    background-color: rgb(214, 55, 7); 
+    text-align: center;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/*
+.corpologin{
+    width: 950px;
+    background-color: /*#e1e0e6 #142a4d*/ /*#00bad4;
+    opacity: 1;
+    margin-left: 13%;
+    padding: 2%;;
+    border-radius: 2px;
+}
+.loginform{
+    float: right;
+    margin-right: 9%;  
+}
+.fonelogin{
+    width: 45%;
+    height: 30px;
+    cursor: pointer;
+    font-size: 100%;
+    color: #745fed;
+    display: inline-block;
+    border: 1px solid darkgray;
+    border-radius: 2px;
+    padding-left: 5px;
+    color: #061327;
+}
+.passlogin{
+    width: 40%;
+    height: 30px;
+    cursor: pointer;
+    font-size: 100%;
+    color: #745fed;
+    display: inline-block;
+    border: 1px solid darkgray;
+    padding-left: 5px;
+    color: #061327;
+    border-top-left-radius: 2px !important;
+    border-bottom-left-radius: 2px !important;
+}
+.btnacessarconta{
+    width: 10%;
+    height: 34px;
+    cursor: pointer;
+    font-size: 100%;
+    color: #745fed;
+    display: inline-block;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: #061327;
+    color: #fff;
+    margin-right: -5px;
+}
+.btnacessarconta:hover{
+    background-color: #0b1d38;
+}
+.logohome{
+    margin-left: 12%;
+}
+.logohomeh1{
+    color: #061327;
+    font-size: 5em;
+    width: 15%;
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+.cadastrouser input{
+    width: 45%;
+    height: 35px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-size: 100%;
+    color: #745fed;
+    display: inline-block;
+    border: 1px solid darkgray;
+    border-radius: 3px;
+    padding-left: 5px;
+    color: #061327;
+}
+.btncriar{
+    width: 45.8% !important;
+    background-color: #061327;
+    text-transform: uppercase;
+    color: #e1e0e6 !important;
+    border: none !important;
+}
+.btncriar:hover{
+    background-color: #0d1f3a;
+}
+.cadastrarh3{
+    text-transform: uppercase;
+    color: #fff;
+    text-indent: 10px;
+}
+.publicidade{
+    width: 50%;
+    height: 50%;
+    float: right;
+    margin-top: -37%;
+}
+.publicidade img{
+    width: 100%;
+    height: 350px;    
+}
+
+.videoback{
+    position: fixed;
+    margin-top: 0%;
+    width: 100%;
+    height: 350px;
+    
+}
+*/

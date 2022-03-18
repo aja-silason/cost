@@ -1,0 +1,165 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0;
+}
+
+.menu{
+    display: block;
+    position: fixed;
+    width: 70%;
+    margin-left: 15%;
+    box-shadow: 0px 0px 10px 0px #000;
+    padding: 2%;
+    border-radius: 5px;
+    background-color: #fff;
+}
+.menu.flutuante{
+    display: none;
+}
+
+.menuclass{
+    background-color: #fff;
+}
+.logomenu h3{
+    color: #061327;
+    font-size: 2em;
+    width: 5%;
+    margin-top: 0%;
+    margin-bottom: -2%;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+    font-size: 20px;
+    margin-right: 1%;
+}
+.active{
+    color:black;
+}
+a{
+    color: #061327;
+    width: 50px;
+    text-decoration: none;
+}
+a:hover{
+    color: #284775;
+}
+
+.inputpesquisar{
+    width: 260px;
+    height: 30px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    color: #745fed;
+    display: inline-block;
+    border: 1px solid darkgray;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    padding-left: 5px;
+    color: #061327;
+}
+.btnpesquisar{
+    width: 90px;
+    height: 30px;
+    margin-bottom: 10px;
+    margin-top: -10px;
+    cursor: pointer;
+    font-size: 15px;
+    color: #745fed;
+    display: inline-block;
+    border: none;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    padding-left: 5px;
+    color: #fff;
+    background-color: #061327;
+}
+.btnpesquisar:hover{
+    background-color: #071d3d;
+}
+.btninteragir{
+    background-color: #63339A; 
+    color: #fefefe;
+    width: 93%;
+    padding: 5px;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+.btninteragir:hover, .btninteragir.btn:hover{
+    background-color: #572d88;
+}
+.btninteragir.btn{
+    background-color: #63339A; 
+    color: #fefefe;
+    width: 95%;
+    padding: 5px;
+    border-radius: 5px;
+    transition: 0.5s;
+    border: none;
+    font-size: 12pt;
+    cursor: pointer;
+    text-align: justify;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.btninteragir.btn.home{
+    width: 163px;
+    margin-right: 5px;
+}
+.socialshare{
+    display: flex;
+    width: 95%;
+}
+.link{
+    color: #061327;
+    font-size: 12pt;
+    background-color: transparent;
+    cursor: pointer;
+    margin-bottom: 5px;
+    border: none;
+}
+.link.home{
+    display: flex;
+    margin-top: -19px;
+    margin-left: 37%;
+    padding-left: -5px;
+    padding-top: -25px;
+}
+.link.home.h{
+    display: flex;
+    margin-top: -19px;
+    margin-left: 39%;
+    padding-left: -5px;
+    padding-top: -25px;
+}
+.link:hover{
+    text-decoration: underline;
+}
+.comentar{
+   width: 75%;
+   height: 40px;
+   border-bottom-left-radius: 5px;
+   border-top-left-radius: 5px;
+   border: 1px solid gray; 
+   padding: 2px;
+   margin-left: 5px;
+}
+.btncomentar{
+    width: 20%;
+    height: 46px;
+    background-color: #63339A;
+    cursor: pointer;
+    color: #fefefe;
+    border: none;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.btncomentar:hover{
+    background-color: #572d88;
+}
+.innercomentario.ver{
+    width: 100%;
+
+}

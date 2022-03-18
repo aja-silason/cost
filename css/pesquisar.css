@@ -1,0 +1,21 @@
+.innerpstgemini{
+    display: flex;
+    width: 90%;
+    margin-left: 5%;
+    padding: 2%;
+}
+.innerpostageminipesq img{
+    width: 180px;
+    height: 180px;
+    border-radius: 150px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.innerpostageminipesq img:hover{
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.7);
+}
+.descricaoinipesq{
+    width: 100%;
+    padding: 2%;
+    margin-top: 50px;
+}

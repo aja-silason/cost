@@ -1,0 +1,20 @@
+cor de fundo: #efeef2
+cor do fundo2: #e1e0e6
+cor do fundo2: d3dbe4
+cor do menu:
+cor de titulos:
+cor de letras: #494948
+back da imagens: #f8f8f7
+
+Outros tons
+#00bad4
+#745fed
+#ff93b0
+#fdb877
+#061327
+#142a4d
+
+Cores dos botões do site{
+cor principal #63339A
+cor hover: #502581
+}

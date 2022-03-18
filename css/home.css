@@ -1,0 +1,53 @@
+.comentario{
+    width: 40%;
+    height: 5%;
+    border-radius: 10px;
+    border: 1px solid;
+    margin-right: 15px;
+    color: #071d3d;
+    padding: 5px;
+}
+.btncomente{
+    border-radius: 30px;
+    border: none;
+    background-color: #061327;
+    color: #fff;
+    font-weight: 900;
+    width: 5%;
+    height: 7%;
+    cursor: pointer;
+}
+.btncomente:hover{
+    background-color: #071d3d;
+}
+button.like{
+    display: block;
+    margin-top: 11%;
+    margin-left: 2px;
+    position: absolute;
+    cursor: pointer;
+    height: 40px;
+    border: none;
+    border-radius: 50px;
+    width: 40px;
+    background-color: #63339A;;
+    color: #fefefe;
+}
+button.share{
+    display: block;
+    text-align: center;
+    margin-top: 15%;
+    margin-left: 2px;
+    position: absolute;
+    cursor: pointer;
+    height: 40px;
+    border: none;
+    border-radius: 50px;
+    width: 40px;
+    background-color: #63339A;;
+    color: #fefefe;
+}
+button:hover{
+    background-color: #502581;
+    transition: 0.8s;
+}

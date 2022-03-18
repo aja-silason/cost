@@ -1,0 +1,48 @@
+.corpoedtperfil{
+    margin-top: 7%;
+    width: 70%;
+    margin-left: 15%;
+    box-shadow: 0px 0px 10px 0px #000;
+    padding: 2%;
+    margin-bottom: 90px;
+    border-radius: 5px;
+}
+.meuperfil{
+    text-align: center;
+    margin-top: 5%;
+}
+.imgperfil{
+    width: 100px;
+    height: 100px;
+    border-radius: 500px;
+}
+.ireditperfil{
+    background-color: #63339A;
+    color: #fff;
+    width: 50%;
+    height: 25px;
+    text-align: center;
+    padding-top: 5px;
+    margin-left: 25%;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.ireditperfil:hover{
+    background-color: #502581;
+}
+.ireditperfil a{
+    color: #fff;
+}
+.bnteditimg, .bnteditnome, .bnteditemail, .bnteditconta, .bnteditdesc{
+    background-color: #63339A;
+    color: #fff;
+    width: 30%;
+    height: 25px;
+    text-align: center;
+    border: none;;
+    cursor: pointer;
+    border-radius: 5px;   
+}
+.bnteditimg:hover, .bnteditnome:hover, .bnteditemail:hover, .bnteditconta:hover, .bnteditdesc:hover{
+    background-color: #502581;
+}
